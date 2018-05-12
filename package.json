@@ -1,0 +1,23 @@
+{
+  "name": "electron-keyboard-sound",
+  "version": "1.0.0",
+  "description": "Electron keybord sound",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager ./ electron-keyboard-sound --win32-x64 --out ~/release/electron-keyboard-sound --overwrite"
+  },
+  "repository": "https://github.com/paratagas/electron-keyboard-sound",
+  "keywords": [
+    "Electron",
+    "node.js"
+  ],
+  "author": "paratagas",
+  "license": "MIT",
+  "dependencies": {
+    "electron-packager": "^8.4.0"
+  },
+  "devDependencies": {
+    "electron": "^1.8.4"
+  }
+}

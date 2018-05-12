@@ -1,0 +1,10 @@
+#symbol {
+    margin: auto;
+    width: 10%;
+    height: 80%;
+    border: 3px solid darkblue;
+    background-color: aqua;
+    padding: 20px;
+    font-size: 50px;
+    text-align: center;
+}
